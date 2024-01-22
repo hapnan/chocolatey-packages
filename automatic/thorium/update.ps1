@@ -14,7 +14,7 @@ function global:au_GetLatest {
   $download_page = Invoke-RestMethod -Method GET -Uri $releases
   $filenamePattern = "*.exe"
   $version = $download_page.tag_name -replace '[a-zA-Z]', '' 
-  $url = ($download_page.assets | Where-Object name -like $filenamePattern ).browser_download_url | select -First 1
+  $url = ($download_page.assets | Where-Object name -like $filenamePattern ).browser_download_url | Select-Object -First 1
   
 
   @{
