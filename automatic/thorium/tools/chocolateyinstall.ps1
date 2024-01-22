@@ -6,7 +6,7 @@ $packageName = 'thorium';
 $fileType    = 'exe';
 $url        = 'https://github.com/Alex313031/Thorium-Win/releases/latest/download/thorium_mini_installer.exe'; # download url, HTTPS preferred
 $checksum   = '6324808A60094A48FCEDB382ECB1125759277E1B9AF1FBBCDED0732DCE7731FD';
-$checksumTypeAll= 'sha256';
+$checksumType= 'sha256';
 $softwareName   = 'thorium*';
 $silentArgs = '--do-not-launch-chrome';
 
@@ -18,7 +18,7 @@ $packageArgs = @{
   url           = $url  
   softwareName  = $softwareName
   checksum      = $checksum
-  checksumType  = $checksumTypeAll
+  checksumType  = $checksumType
   silentArgs    = $silentArgs 
   validExitCodes= @(0)
 }
