@@ -21,7 +21,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: hapnan/chocolatey-packages
   github_api_key:
-    secure: 2ZYGwJHE7Ssm6rbnTyGefhywoYPb4jiFmFjQn1kvn2do+SetGUVfbrUx5kNcXqvy #https://ci.appveyor.com/tools/encrypt
+    secure: 4Gz+5JnF7Vk0qu1KL8r1+joBu14sKDvVqTkYQ7lh1Fk6FkUMxVw8nxNfpVgiOTXt #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
