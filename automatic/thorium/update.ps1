@@ -5,6 +5,7 @@ $releases = "https://api.github.com/repos/Alex313031/Thorium-Win/releases/latest
 function global:au_SearchReplace {
   @{
     ".\tools\chocolateyInstall.ps1" = @{
+      "(^[$]url\s*=\s*)('.*')"  = "`$1'$($Latest.URL32)'"
       "(^[$]checksum\s*=\s*)('.*')"  = "`$1'$($Latest.Checksum32)'"
     }
   }
