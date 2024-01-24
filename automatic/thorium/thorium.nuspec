@@ -20,7 +20,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <title>Thorium</title>
     <id>thorium</id>
-    <version>119.0.6045.214</version>
+    <version>120.0.6099.235</version>
     <packageSourceUrl>https://github.com/hapnan/chocolatey-packages</packageSourceUrl>
     <owners>hapnan</owners>
     <authors>Alex313031</authors>
@@ -36,14 +36,23 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <summary>Chromium fork for Windows named after radioactive element No. 90</summary>
     <description># Thorium
 
-## Chromium fork for linux named after [radioactive element No. 90](https://en.wikipedia.org/wiki/Thorium). Windows/MacOS/RasPi/Android/Other builds see below.
+## Chromium fork for linux named after [radioactive element No. 90](https://en.wikipedia.org/wiki/Thorium). For Windows.
+
+#### Package Parameters
+    choco install thorium --params '"/params"'
+The following package parameters can be set:
+
+ * `/AVX` - for those of you who want to use the avx build
+ * `/SSE3` - for those of you who want to use the sse3 build
+
+# if you want to use AVX2 build use installation as usual 'choco install thorium'
 
 - Always built with the latest stable version of [Chromium](https://www.chromium.org/).
 - Intended to behave like and have the featureset of Google Chrome, with differences/patches/enhancements listed below.
 - Includes [Widevine](https://www.widevine.com/), [All Codecs](https://tools.woolyss.com/html5-audio-video-tester/), Chrome Plugins, as well as thinLTO, CFlag, LDFlag, LLVM Loop, and PGO compiler optimizations. It is built with [SSE4](https://en.wikipedia.org/wiki/SSE4), [AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions), and [AES](https://en.wikipedia.org/wiki/AES_instruction_set), so it won't launch on CPU's below 2nd gen Core or AMD FX, but benefits from Advanced Vector EXtensions. If your CPU lacks AVX, you can use builds from the [Thorium SSE3](https://github.com/Alex313031/Thorium-SSE3) repo.
 - For more info, read the [PATCHES.md](https://github.com/Alex313031/thorium/blob/main/infra/PATCHES.md) file.
 - Known bugs are in the [BUGS.md](https://github.com/Alex313031/thorium/blob/main/infra/BUGS.md) file.
-- A list of Chromium command line flags can be found at &gt; https://peter.sh/experiments/chromium-command-line-switches</description>
+- A list of Chromium command line flags can be found at &gt; https://peter.sh/experiments/chromium-command-line-switches</description></description>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
