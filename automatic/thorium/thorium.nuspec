@@ -52,7 +52,7 @@ The following package parameters can be set:
 - Includes [Widevine](https://www.widevine.com/), [All Codecs](https://tools.woolyss.com/html5-audio-video-tester/), Chrome Plugins, as well as thinLTO, CFlag, LDFlag, LLVM Loop, and PGO compiler optimizations. It is built with [SSE4](https://en.wikipedia.org/wiki/SSE4), [AVX](https://en.wikipedia.org/wiki/Advanced_Vector_Extensions), and [AES](https://en.wikipedia.org/wiki/AES_instruction_set), so it won't launch on CPU's below 2nd gen Core or AMD FX, but benefits from Advanced Vector EXtensions. If your CPU lacks AVX, you can use builds from the [Thorium SSE3](https://github.com/Alex313031/Thorium-SSE3) repo.
 - For more info, read the [PATCHES.md](https://github.com/Alex313031/thorium/blob/main/infra/PATCHES.md) file.
 - Known bugs are in the [BUGS.md](https://github.com/Alex313031/thorium/blob/main/infra/BUGS.md) file.
-- A list of Chromium command line flags can be found at &gt; https://peter.sh/experiments/chromium-command-line-switches</description></description>
+- A list of Chromium command line flags can be found at &gt; https://peter.sh/experiments/chromium-command-line-switches</description>
   </metadata>
   <files>
     <!-- this section controls what actually gets packaged into the Chocolatey package -->
