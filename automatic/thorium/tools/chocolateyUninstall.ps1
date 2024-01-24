@@ -9,7 +9,7 @@ $packageArgs = @{
   PackageName    = 'Thorium'
   FileType       = 'exe'
   SilentArgs     = $silentArgs
-  validExitCodes = @(0, 19, 21)
+  validExitCodes = @(19, 20, 21)
   File           = $myfile
 }
 # Now to Uninstall the Package
