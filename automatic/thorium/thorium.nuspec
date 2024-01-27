@@ -32,7 +32,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/Alex313031/Thorium-Win/issues</bugTrackerUrl>
-    <tags>thorium chrome chromium webbrowser chromium-browser thorium-browser</tags>
+    <tags>thorium chrome chromium admin webbrowser chromium-browser thorium-browser</tags>
     <summary>Chromium fork for Windows named after radioactive element No. 90</summary>
     <description># Thorium
 
