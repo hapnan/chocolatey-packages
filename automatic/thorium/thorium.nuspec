@@ -45,7 +45,7 @@ The following package parameters can be set:
  * `/AVX` - for those of you who want to use the avx build
  * `/SSE3` - for those of you who want to use the sse3 build
 
-# if you want to use AVX2 build use installation as usual 'choco install thorium'
+### if you want to use AVX2 build use installation as usual 'choco install thorium'
 
 - Always built with the latest stable version of [Chromium](https://www.chromium.org/).
 - Intended to behave like and have the featureset of Google Chrome, with differences/patches/enhancements listed below.
