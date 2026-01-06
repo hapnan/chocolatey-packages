@@ -44,6 +44,12 @@ The following package parameters can be set:
 
  * `/AVX` - for those of you who want to use the avx build
  * `/SSE3` - for those of you who want to use the sse3 build
+ * `/SSE4` - for those of you who want to use the sse4 build
+ * `/SystemInstall` - for those of you who want to install thorium in system (Program Files)
+
+if no parameter is specified, the AVX2 build will be installed by default.
+
+
 
 ### if you want to use AVX2 build use installation as usual 'choco install thorium'
 
