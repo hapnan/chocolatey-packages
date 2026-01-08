@@ -39,7 +39,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 ## Chromium fork for linux named after [radioactive element No. 90](https://en.wikipedia.org/wiki/Thorium). For Windows.
 
 #### Package Parameters
-    choco install thorium --params '"/params"'
+    choco install thorium --params "'/params=true'"
 The following package parameters can be set:
 
  * `/AVX` - for those of you who want to use the avx build
