@@ -22,7 +22,6 @@ if (-not $match.Success) {
 $uninstallExe = $match.Groups['exe'].Value.Trim()
 $uninstallArgs = $match.Groups['args'].Value
 
-$uninstallExeName = (Split-Path -Leaf $uninstallExe)
 
 $isSystemLevel = $false
 if ($uninstallArgs -match '(?i)\s--system-level(\s|$)') {
