@@ -20,7 +20,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
   <metadata>
     <title>Thorium</title>
     <id>thorium</id>
-    <version>138.0.7204.300</version>
+    <version>138.0.7204.303</version>
     <packageSourceUrl>https://github.com/hapnan/chocolatey-packages</packageSourceUrl>
     <owners>hapnan</owners>
     <authors>Alex313031</authors>
