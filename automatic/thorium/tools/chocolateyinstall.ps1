@@ -8,17 +8,17 @@ $checksumType = 'sha256'
 
 # URLs + checksums are maintained by AU via automatic\thorium\update.ps1
 $variantUrls = @{
-    SSE3 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.300/thorium_SSE3_mini_installer.exe'
-    SSE4 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.300/thorium_SSE4_mini_installer.exe'
-    AVX  = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.300/thorium_AVX2_mini_installer.exe'
-    AVX2 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.300/thorium_AVX2_mini_installer.exe'
+    SSE3 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE3_mini_installer.exe'
+    SSE4 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_SSE4_mini_installer.exe'
+    AVX  = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe'
+    AVX2 = 'https://github.com/Alex313031/Thorium-Win/releases/download/M138.0.7204.303/thorium_AVX2_mini_installer.exe'
 }
 
 $variantChecksums = @{
-    SSE3 = 'db38e1a19c9a113e18047a651486ca741a18752154cfe71511f2c1797466e533'
-    SSE4 = 'e304b930199e4db7ef1cbcbd243cfc4b64f06ecff78aa576fde11f45d014e62a'
-    AVX  = '8ddc33a6e18c481268c269e52983979fdd618d4191e8fd14ccf6b11754f5d04a'
-    AVX2 = '8ddc33a6e18c481268c269e52983979fdd618d4191e8fd14ccf6b11754f5d04a'
+    SSE3 = '7243fd08a4b86568fc07b9ce9b8baf1dcf3ae40c1fbe75efdd6eee043a8ddeb1'
+    SSE4 = '66e9e854590317bfb1acdafc7e8c3d8422ee786b3fb6c098a791ed0b15297fc5'
+    AVX  = 'e3775a0cf5f837b35b571d547e63ba28330a2ae7e19a979030eeea4de46082aa'
+    AVX2 = 'e3775a0cf5f837b35b571d547e63ba28330a2ae7e19a979030eeea4de46082aa'
 }
 
 # Determine installation scope automatically
